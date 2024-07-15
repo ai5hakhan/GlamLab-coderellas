@@ -91,3 +91,4 @@ We aspire to implement a "Makeover Game" where users, especially Gen Z who grew 
   2. **Run the Project**: Click on the `Play` button in Unity to run the project within the Unity editor.
   3. **Interact with the Avatar Creator**: Interact with the Avatar Creator as integrated into the Unity project.
 
+![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/61d6de4d-28d8-402f-a700-3ca73f33bde3.jfif)

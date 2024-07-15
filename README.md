@@ -92,3 +92,11 @@ We aspire to implement a "Makeover Game" where users, especially Gen Z who grew 
   3. **Interact with the Avatar Creator**: Interact with the Avatar Creator as integrated into the Unity project.
 
 ![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/61d6de4d-28d8-402f-a700-3ca73f33bde3.jfif)
+![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/8759f231-1606-45c0-b293-664a9821ffca.jfif)
+![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/WhatsApp%20Image%202024-07-15%20at%2010.19.30%20PM.jpeg)
+![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/WhatsApp%20Image%202024-07-15%20at%2010.19.31%20PM.jpeg)
+![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/WhatsApp%20Image%202024-07-15%20at%2010.27.54%20PM.jpeg)
+![Alt Text](https://github.com/ai5hakhan/GlamLab-coderellas/blob/main/images/dee1438d-fd63-4cff-8028-bb18b6664d66.jfif)
+![Alt Text](https://github.com/your-username/your-repo-name/raw/main/images/your-image-file.png)
+
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='icon' href='/img/logo2.png' />
+    <title>Myntra Local</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We' crossorigin='anonymous' />
+    <link rel="stylesheet" href="/css/shop-style.css">
+    <style>
+        .products { display: none; }
+    </style>
+</head>
+<body>
+    <div class="myalert"></div>
+    {{>header}}
+    <div class="container">
+        <div class="shop-details">
+            <div class="shop-pic">
+                <img id="shop_pic" src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y2xvdGhpbmclMjBzdG9yZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="shop-img">
+            </div>
+            <div class="shop-info">
+                <h1>XYZ</h1>
+                <h6>Category:Casual Wear</h6>
+            </div>
+            <div class="walkinbtn">
+                <button type="button" class="btn btn-primary btn-lg" style="text-align: justify;" onclick="showProducts()">Explore Their Best Outfits</button>
+            </div>
+        </div>
+        <div class="products">
+            <div class="row mt-3"></div>
+            <h5>Casual Wear<div class="opacity-25"></div></h5>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/1364628/2016/8/31/11472636737718-Roadster-Men-Blue-Regular-Fit-Printed-Casual-Shirt-6121472636737160-1.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Roadster</h5>
+                                <p class="card-text">Blue Coloured</p>
+                                <div class="cart">
+                                    <button type="submit" class="btn cartbtn btn-primary">Edit this outfit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/7488102/2019/8/22/8002a744-0dad-4dbb-9481-cf0090134c3b1566454086786-Dennis-Lingo-Men-Pink-Slim-Fit-Solid-Casual-Shirt-9891566454-1.jpg" class="rounded mx-auto d-block" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Dennis Lingo</h5>
+                                <p class="card-text">Pink Coloured</p>
+                                <div class="cart">
+                                    <button type="submit" class="btn cartbtn btn-primary">Edit this outfit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://assets.myntassets.com/f_webp,dpr_1.0,q_60,w_210,c_limit,fl_progressive/assets/images/2414313/2018/3/13/11520926368526-HERENOW-Men-Red--Black-Regular-Fit-Checked-Casual-Shirt-8881520926368447-1.jpg" class="rounded mx-auto d-block" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">HERE&NOW</h5>
+                                <p class="card-text">Checked</p>
+                                <div class="cart">
+                                    <button type="submit" class="btn cartbtn btn-primary">Edit this outfit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMN7rDvpH6jyf91fgxkOUZuzXYTM0WlwodRKAJQsgK7pYv7uxBJojJlg2hI5zM4f" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0ey4bT7GIR3U7F0KrF0zOG6r5rZ6LrvpMI0iVVf0ZqHGId+M72fF22sz" crossorigin="anonymous"></script>
+    <script>
+        function showProducts() {
+            document.querySelector('.products').style.display = 'block';
+            document.querySelector('.walkinbtn').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+

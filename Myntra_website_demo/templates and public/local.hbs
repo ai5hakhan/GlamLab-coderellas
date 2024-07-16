@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='UTF-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel='icon' href='/img/logo2.png' />
+    <title>Myntra Local</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Fixed size for cards and images */
+        .card {
+            width: 18rem;
+            height: 25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin: 1rem;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card-text {
+            flex: 1;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    {{>header}}
+    
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="/video.mp4" type="video/mp4">
+        </video>
+        
+        <div class="container h-100">
+            <div class="orientaion h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="m1 display-3">MYNTRA GLAM LAB</h1>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a href="#contain">
+                        <button type="button" class="btn btn-primary button" onclick="getLocation(); remove_shops(); load_shops();">Explore Outfits</button>
+                    </a>
+                    <a href="#anotherSection1">
+                        <button type="button" class="btn btn-secondary button" style="animation: pulse 1s infinite;">Design</button>
+                    </a>
+                    <a href="/community">
+                        <button type="button" class="btn btn-secondary button">Community</button>
+                    </a>
+                </div>
+                <p id="location" style="color: white;"></p>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Page section example for content below the video header -->
+    <section class="my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="main">
+        <!-- Heading for most liked profiles -->
+        <h2 id="most-liked-heading" class="text-center my-4" style="display: none;">Most Liked Profiles Near You</h2>
+        <!--cards -->
+        <div id="contain" class="d-flex flex-wrap justify-content-center">
+        </div>
+    </div>
+    
+    <script src="/js/local.js"></script>
+</body>
+</html>
+
+
